@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif, Tahoma, Geneva;
+  background: url(../img/wheat-1149885.jpg) no-repeat fixed;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+.conteiner {
+	width: 70%;
+	height: 2000px; /* нужно будет поменять на auto */
+ 	padding: 0;
+ 	margin-top: 0;
+  margin: 0 auto;
+  font-size: 1.3em; 
+	background-color: rgba(250, 250, 250, 0.7);
+}
+
+/* Header - Menu */
+
+
+.top-part {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 0.2em;
+	padding-right: 1em;
+}
+.top-part_lenguage {
+	font-size: 0.7em;
+	list-style-type: none;
+}
+.part_lenguage {
+	font-size: 0.9em;
+}
+.top-name {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-weight: bold;
+	text-align: center;
+	color:#FF9803; 
+	font-size: 2em;
+	text-shadow: 5px 1px 5px #001424e6, 0 0 1em #FF9803;
+}
+.menu {
+	/*padding-top: 0.2em;*/
+	padding-bottom: 0.2em;
+	display: flex;
+	justify-content: center;
+	background-color: #001424e6;
+	list-style-type: none;
+  box-shadow:
+	  -15px -15px 2px -5px #001423,
+	  -15px 15px 2px -5px #ff9803,
+	  15px -15px 2px -5px #ff9803,
+	  15px 15px 2px -5px #001423;
+}
+.nav-link {
+	font-size: 0.8em;
+	color: #FF9803;
+	text-decoration: none;
+	padding-right: 1.2em;
+	padding-left: 1.2em;
+	padding-top: 0.3em;
+	padding-bottom: 0.2em;
+}
+ul:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+ul.menu > li {
+  float: left;
+  position: relative;
+}
+ul.menu > li > a:hover {
+  background-color: #001424e6;
+}
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: auto;
+  top: 1.3em;
+  left: 0;
+}
+ul.submenu > li {
+  display: block;
+}
+ul.submenu > li > a {
+  display: block;
+  padding: 0.4em;
+  color: #FF9803;
+  font-size: 0.7em;
+  background-color:  #001424;
+  text-decoration: none;
+}
+ul.submenu > li > a:hover {
+  text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+  display: block;
+}
+
+
+/* NEWS-TEX  */
+
+.subtitle {
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.8em;
+}
