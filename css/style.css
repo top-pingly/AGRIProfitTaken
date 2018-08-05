@@ -36,31 +36,46 @@ body {
 .part_lenguage {
 	font-size: 0.9em;
 }
+.logo {
+	text-align: center;
+}
+.logo-img {
+	width: 11em;
+/*	box-shadow:
+	-15px -15px 2px -5px #001423,
+	-15px 15px 2px -5px #ff9803,
+	15px -15px 2px -5px #ff9803,
+	15px 15px 2px -5px #001423;*/
+
+}
 .top-name {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	font-weight: bold;
+	font-weight: 800;
 	text-align: center;
-	color:#FF9803; 
+	color: #FF9803;
 	font-size: 2em;
-	text-shadow: 5px 1px 5px #001424e6, 0 0 1em #FF9803;
 }
+/*span {
+	color: #aeada0;
+	font-weight: 700;
+}*/
 .menu {
 	/*padding-top: 0.2em;*/
 	padding-bottom: 0.2em;
 	display: flex;
 	justify-content: center;
-	background-color: #001424e6;
+	background-color: #374251;
 	list-style-type: none;
-  box-shadow:
+/*  box-shadow:
 	  -15px -15px 2px -5px #001423,
 	  -15px 15px 2px -5px #ff9803,
 	  15px -15px 2px -5px #ff9803,
-	  15px 15px 2px -5px #001423;
+	  15px 15px 2px -5px #001423;*/
 }
 .nav-link {
 	font-size: 0.8em;
-	color: #FF9803;
+	color: #fff;
 	text-decoration: none;
 	padding-right: 1.2em;
 	padding-left: 1.2em;
