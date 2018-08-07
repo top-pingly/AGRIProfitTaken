@@ -10,6 +10,8 @@ body {
   -o-background-size: 100%; /* Opera 9.6+ */
   background-size: 100%; /* Современные браузеры */
 }
+
+
 .conteiner {
 	width: 70%;
 	height: 2000px; /* нужно будет поменять на auto */
@@ -60,7 +62,7 @@ body {
 	color: #aeada0;
 	font-weight: 700;
 }*/
-.menu {
+.menu-nav {
 	/*padding-top: 0.2em;*/
 	padding-bottom: 0.2em;
 	display: flex;
@@ -88,11 +90,11 @@ ul:after {
   clear: both;
   float: none;
 }
-ul.menu > li {
+ul.menu-nav > li {
   float: left;
   position: relative;
 }
-ul.menu > li > a:hover {
+ul.menu-nav > li > a:hover {
   background-color: #001424e6;
 }
 ul.submenu {
@@ -116,7 +118,7 @@ ul.submenu > li > a {
 ul.submenu > li > a:hover {
   text-decoration: underline;
 }
-ul.menu > li:hover > ul.submenu {
+ul.menu-nav > li:hover > ul.submenu {
   display: block;
 }
 
