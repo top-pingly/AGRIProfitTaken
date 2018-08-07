@@ -43,21 +43,20 @@ body {
 }
 .logo-img {
 	width: 11em;
-/*	box-shadow:
-	-15px -15px 2px -5px #001423,
-	-15px 15px 2px -5px #ff9803,
-	15px -15px 2px -5px #ff9803,
-	15px 15px 2px -5px #001423;*/
-
+	box-shadow:
+	  -15px -15px 0px -12px #001423,
+	  -15px 15px 0px -12px #ff9803,
+	  15px -15px 0px -12px #ff9803,
+	  15px 15px 0px -12px #001423;
 }
-.top-name {
+/*.top-name {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	font-weight: 800;
 	text-align: center;
 	color: #FF9803;
 	font-size: 2em;
-}
+}*/
 /*span {
 	color: #aeada0;
 	font-weight: 700;
@@ -69,11 +68,11 @@ body {
 	justify-content: center;
 	background-color: #374251;
 	list-style-type: none;
-/*  box-shadow:
-	  -15px -15px 2px -5px #001423,
-	  -15px 15px 2px -5px #ff9803,
-	  15px -15px 2px -5px #ff9803,
-	  15px 15px 2px -5px #001423;*/
+	/*box-shadow:*/
+	  -15px -15px 0px -10px #001423,
+	  -15px 15px 0px -10px #ff9803,
+	  15px -15px 0px -11px #ff9803,
+	  15px 15px 0px -11px #001423;
 }
 .nav-link {
 	font-size: 0.8em;
